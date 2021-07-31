@@ -1,7 +1,7 @@
 // @ts-nocheck
 import React, { useEffect, useRef, useState } from 'react';
 import { Annotorious } from '@recogito/annotorious';
-import HelloWorldWidget from './helloWorld';
+import HelloWorldWidget from './helloWorldWidget';
 
 
 const AnnotoriousLoader = () => {
@@ -25,7 +25,7 @@ const AnnotoriousLoader = () => {
         widgets: [
             'COMMENT',
             'TAG',
-            // HelloWorldWidget,
+            HelloWorldWidget,
           ]
       });
 
